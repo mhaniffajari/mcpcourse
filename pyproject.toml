@@ -5,5 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "huggingface-hub>=0.31.1",
+    "langchain-google-genai>=2.1.4",
+    "loguru>=0.7.3",
+    "mcp-use>=1.2.9",
     "mcp[cli]>=1.8.0",
+    "mmh3>=5.1.0",
+    "onnxruntime==1.16.3",
+    "pillow>=11.2.1",
+    "py-rust-stemmers>=0.1.5",
+    "tokenizers>=0.21.1",
 ]

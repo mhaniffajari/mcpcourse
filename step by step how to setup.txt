@@ -1,0 +1,17 @@
+uv add "mcp[cli]"
+
+
+uv run mcp dev server/weather.py
+
+uv run mcp install server/weather.py
+
+uv add langchain_google_genai
+
+uv add mcp_use
+
+uv add onnxruntime==1.16.3
+
+uv pip install fastembed --no-deps
+
+
+uv run server/client.py
