@@ -1,7 +1,0 @@
-{
-    "mcpServers":{    
-        "http": {
-                        "url": "http://localhost:8931/sse"
-                    }
-    }
-}
